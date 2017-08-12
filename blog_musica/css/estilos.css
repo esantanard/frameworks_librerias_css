@@ -1,0 +1,26 @@
+header{
+	margin-bottom: 10px;
+	padding-top: 15px;
+}
+
+.logo img{
+	width: 150px;
+}
+
+.nav{
+	background-color: #dedede;
+}
+
+.nav li{
+	background-color: #6ef2f7;
+	margin: 10px 20px;
+}
+
+.nav a{
+	color: black;
+}
+
+.redes img{
+	width: 25px; 
+	bottom:0;
+}
