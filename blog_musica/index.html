@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Blog de Comida</title>
+	<title>Blog de Musica</title>
 	<meta charset="utf-8">
 	<meta name="Viewport" content="width:device-with, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
@@ -12,19 +12,19 @@
 <div id="all">
 	<div class="container">
 		<header class="row">
-			<div class="col-lg-10 logo"><img src="images/logo.svg" alt="Logo"></div>
-			<div class="col-lg-2">
-				<div class="row redes align-items-end">
-					<div class="col-lg-3"><img src="images/instagram-logo.png" alt="Instagram"></div>
-					<div class="col-lg-3"><img src="images/facebook.png" alt="Facebook"></div>
-					<div class="col-lg-3"><img src="images/twitter.png" alt="Twitter"></div>
-					<div class="col-lg-3"><img src="images/youtube.png" alt="Youtube"></div>
+			<div class="col-lg-10 col-md-9 col-sm-12 logo"><img src="images/logo.svg" alt="Logo"></div>
+			<div class="col-lg-2 col-md-3 col-sm-12">
+				<div class="row redes justify-content-center">
+					<div class="col-lg-3 col-md-1 col-sm-1 col-xl-1"><img src="images/instagram-logo.png" alt="Instagram"></div>
+					<div class="col-lg-3 col-md-1 col-sm-1 col-xl-1"><img src="images/facebook.png" alt="Facebook"></div>
+					<div class="col-lg-3 col-md-1 col-sm-1 col-xl-1"><img src="images/twitter.png" alt="Twitter"></div>
+					<div class="col-lg-3 col-md-1 col-sm-1 col-xl-1"><img src="images/youtube.png" alt="Youtube"></div>
 				</div>
 			</div>
 		</header>
 
 		<nav>
-			<ul class="nav justify-content-center">
+			<ul class="nav justify-content-center menu">
 			  <li class="nav-item">
 			    <a class="nav-link" href="#">Inicio</a>
 			  </li>
@@ -46,8 +46,8 @@
 			</ul>
 		</nav>
 
-		<section class="row text-justify">
-			<div class="col-lg-8">
+		<div class="row">
+		<section class="col-lg-9 text-justify content">
 				<div class="post">
 					<div class="row">
 						<div class="col-lg-9">
@@ -64,14 +64,17 @@
 						<div class="col-lg-3 content-img">
 							<img src="images/beatles.jpg" alt="Beatles">
 						</div>
-						<div class="row">
-							<span class="col-lg-1 user">
-							<img src="images/user1.png" alt="users"></span>
-							<div class="col-lg-11 form-group">
-								<form action="">
-									<textarea class="form-control" name="comentario" placeholder="Comentario"></textarea>
-								</form>
+						
+							<div class="col-lg-1 user">
+								<img src="images/user1.png" alt="users">
 							</div>
+							<div class="col-lg-11">
+								<div class="form-group">
+									<form action="">
+											<textarea class="form-control" name="comentario" placeholder="Comentario"></textarea>
+									</form>
+								</div>
+							
 						</div>
 					</div>
 					<div class="row">
@@ -89,24 +92,52 @@
 								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 							</p>
 						</div>
-						<div class="row">
-							<span class="col-lg-1 user">
-							<img src="images/user1.png" alt="users"></span>
+						
+						<div class="col-lg-1 user">
+							<img src="images/user1.png" alt="users">
+						</div>
 							<div class="col-lg-11 form-group">
 								<form action="">
 									<textarea class="form-control" name="comentario" placeholder="Comentario"></textarea>
 								</form>
 							</div>
-						</div>
+						
 					</div>
+				</div><!--End Post-->
+			
+			</section>
+			<aside class="col-lg-3">
+				<div class="form-group">
+					<form>
+						<input class="form-control" type="search" name="buscar" placeholder="Buscar">
+					</form>
 				</div>
-			</div>
-			<div class="col-lg-4"></div>
-		</section>
-
-
-
-	</div>
-</div>
+				 	<ul class="list-group">
+	  					<li class="list-group-item">
+	  						<a href="#">Lorem</a>
+	  					</li>
+	  					<li class="list-group-item">
+	  						<a href="#">Lorem</a>
+	  					</li>
+	  					<li class="list-group-item">
+	  						<a href="#">Lorem</a>
+	  					</li>
+	  					<li class="list-group-item">
+	  						<a href="#">Lorem</a>
+	  					</li>
+	  					<li class="list-group-item">
+	  						<a href="#">Lorem</a>
+	  					</li>
+	  					<li class="list-group-item">
+	  						<a href="#">Lorem</a>
+	  					</li>
+	  					<li class="list-group-item">
+	  						<a href="#">Lorem</a>
+	  					</li>
+					</ul>	
+			</aside>	
+		</div>
+	</div><!--END Container-->
+</div><!--END All-->
 </body>
 </html>
