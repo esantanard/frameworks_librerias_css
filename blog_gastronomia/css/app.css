@@ -29,13 +29,25 @@ h1{
 }
 
 .comentarios div{
-	border: 1px solid #2b6690;
+	border: 1px solid #061e2f;
 	border-radius: 5px;
 	padding: 5px;
 	margin: 5px;
 }
+
 .comentarios img{
 	width: 50px;
+}
+
+textarea{
+	border: 0;
+	margin-top: 10px;
+}
+
+input.button {
+    background: #591f92;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0px #591f92;
 }
 
 .entrada{
