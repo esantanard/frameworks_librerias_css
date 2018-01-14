@@ -1,5 +1,5 @@
 div{
-  border: 0px;
+  border: 0;
 }
 
 .images{
@@ -13,4 +13,11 @@ body{
 
 .page{
 	background-color: #147cc0b8;
+}
+
+.second{
+	background-color: #eee;
+}
+.third{
+	background-color: #f1f1f1;
 }
