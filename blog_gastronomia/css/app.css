@@ -9,15 +9,37 @@ div{
 body{
 	background: url(../imagees/bg.jpg);
 	background-size: cover;
+	color: 	white;
 }
 
 .page{
-	background-color: #147cc0b8;
+	background-color: #147cc073;
+    padding: 15px;
 }
 
+h1{
+	margin: 0;
+}
+
+.menu a {color: black; text-decoration:underline}
+
 .second{
-	background-color: #eee;
+	background-color: #d6fd00cf;
+	padding-top: 15px;
 }
-.third{
-	background-color: #f1f1f1;
+
+.comentarios div{
+	border: 1px solid #2b6690;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px;
 }
+.comentarios img{
+	width: 50px;
+}
+
+.entrada{
+	margin-bottom: 	15px;
+	background-color: #da1616ab;
+}
+
