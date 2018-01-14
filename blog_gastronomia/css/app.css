@@ -1,3 +1,16 @@
 div{
   border: 0px;
 }
+
+.images{
+	padding: 5px;
+}
+
+body{
+	background: url(../imagees/bg.jpg);
+	background-size: cover;
+}
+
+.page{
+	background-color: #147cc0b8;
+}
