@@ -1,0 +1,9 @@
+body{
+	background: url(../images/bg.jpg);
+}
+
+.fijo{
+	height: 150px;
+	position: fixed;
+	width: 100%
+}
